@@ -41,9 +41,11 @@ nav {
     color: #1d4b98;
     font-size: 13px;
     font-weight: 700;
+    padding: 15px 15px;
 }
  ul > li > a:hover{
-    color: #f89c03;
+    background: linear-gradient(45deg, #2c5aa7, #15366e);
+    color: white;
     transition: 0.5s;
 }
 
