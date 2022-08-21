@@ -246,6 +246,32 @@ nav{
         flex-direction: column;
         /* margin: 20px 0px; */
     }
+    .main-head-cont1 {
+        width: 100%;
+    }
+    .main-head-cont1 > h1 {
+        font-size: 50px;
+    }
+    .cont1-para{
+        width: 100%;
+    }
+    .cont1-para > p {
+        font-size: 23px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .main-cont1.aos-init.aos-animate {
+        text-align: center;
+    }
+    .flex-cont1 {
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .sub-cont1 {
+        padding: 20px 60px;
+    }
+ 
     
 }
 
