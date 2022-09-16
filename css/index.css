@@ -895,8 +895,45 @@ button.slick-next.slick-arrow {
 .sd_scroll::-webkit-scrollbar-thumb:hover {
     background-color:#a0a0a5;
 }
+/* data  */
 
 
+.submain{
+    margin-top: 90px;
+    padding: 55px 30px;
+    justify-content: center;
+    display: flex;
+    /* width: 100%; */
+    /* background: rgb(84, 84, 239); */
+    background: linear-gradient(to right, #003072 , #65b1c6);
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.sub{
+    display: flex;
+}
+.sub .Con > img{
+    margin: 10px 30px;
+    width: 50%;
+    filter: brightness(0) invert(1);
+}
+.sub .h3{
+    margin-left: -22px;
+}
+
+.sub .h3 >h3{
+    font-size: 22px;
+    color: white;
+}
+
+.sub .h3 >p{
+    color: white;
+}
+
+/* data rnd  */
 
 
 
@@ -1022,6 +1059,34 @@ button.slick-next.slick-arrow {
     .submain-card{
         width: 100%;
     }
+    .submain{
+        width: 100%;
+        
+       }
+       
+       .sub{
+           display: block;
+           text-align: center;
+           
+       }
+       
+       
+       .sub .Con > img{
+           width: 60%;
+       }
+       
+       .sub .h3 {
+           padding: 20px 5px;
+           margin: auto;
+       }
+       
+       .sub .h3 >h3{
+           font-size: 60px;
+           color: white;
+       }
+       .sub .h3 >p{
+           font-size: 30px;
+       }
     
 }
 
@@ -1041,7 +1106,15 @@ button.slick-next.slick-arrow {
 @media screen and (max-width:400px) {
     .bg1 > img {
   
-        height: 1600px;
+        height: 1400px;
+    }
+
+    
+}
+@media screen and (max-width:350px) {
+    .bg1 > img {
+  
+        height: 1620px;
     }
     
 }
