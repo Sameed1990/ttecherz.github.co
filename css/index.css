@@ -1007,4 +1007,10 @@ a.submain-a {
   .main-cont1{
     padding: inherit;
   }
+  .sub-cont1 {
+    padding: 20px 30px;
+}
+.main-get{
+    padding: 30px 20px;
+}
 }
