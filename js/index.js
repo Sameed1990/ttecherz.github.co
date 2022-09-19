@@ -103,38 +103,66 @@ jQuery(document).ready(function($){
 
 
 
-
-
-
-
-
 jQuery(document).ready(function($) {
-    $('.slider').slick({
-      dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      // autoplay: true,  
-      autoplaySpeed: 2000,
-      arrows: true,
-      responsive: [{
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
+  $('.slider2').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,  
+    autoplaySpeed: 2000,
+    arrows: false,
+
+    responsive: [{
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+       breakpoint: 500,
+       settings: {
+          arrows: false,
+          slidesToShow: 1,
           slidesToScroll: 1
-        }
-      },
-      {
-         breakpoint: 400,
-         settings: {
-            arrows: false,
-            slidesToShow: 1,
-            slidesToScroll: 1
-         }
-      }]
-  });
+       }
+    }]
 });
+});
+
+
+
+
+// jQuery(document).ready(function($) {
+//     $('.slider').slick({
+//       dots: false,
+//       infinite: true,
+//       speed: 500,
+//       slidesToShow: 3,
+//       slidesToScroll: 1,
+//       // autoplay: true,  
+//       autoplaySpeed: 2000,
+//       arrows: false,
+
+//       responsive: [{
+//         breakpoint: 700,
+//         settings: {
+//           slidesToShow: 2,
+//           slidesToScroll: 1
+//         }
+//       },
+//       {
+//          breakpoint: 500,
+//          settings: {
+//             arrows: false,
+//             slidesToShow: 1,
+//             slidesToScroll: 1
+//          }
+//       }]
+//   });
+// });
 
 // Slick Slider Script -- Provided by https://kenwheeler.github.io/slick/
 /*
